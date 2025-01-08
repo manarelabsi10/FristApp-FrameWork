@@ -45,6 +45,6 @@ section .row .container .items .myItems div:hover .layer {
 .modal .modal-dialog .modal-body .imageLayer {
   width: 40%;
 }
-.modal .modal-dialog .modal-body .closeIcon .fa-xmark {
-  top: -180px;
-}
+/* .modal .modal-dialog .modal-body .closeIcon .fa-xmark {
+  top: -40px;
+} */

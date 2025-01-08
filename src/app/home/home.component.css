@@ -12,6 +12,7 @@ body {
 
 section {
   background: #1abc9c;
+  /* height: 100vh; */
 }
 section .row .container {
   width: 80%;
