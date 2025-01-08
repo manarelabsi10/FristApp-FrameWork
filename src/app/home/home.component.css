@@ -1,0 +1,29 @@
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background: #1abc9c;
+}
+section .row .container {
+  width: 80%;
+  margin: 0 auto;
+}
+section .row .container .mainPage div .title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+section .row .container .mainPage div .title .icon div {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}

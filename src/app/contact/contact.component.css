@@ -1,0 +1,36 @@
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 100vh;
+}
+section .row .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section .row .container .title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+section .row .container .title .icon div {
+  width: 100px;
+  height: 5px;
+  background-color: #2c3e50;
+}
+section .row .container .title .icon i {
+  color: #2c3e50;
+}
+section .row .container .form button {
+  background-color: #1abc9c;
+  width: 120px;
+}

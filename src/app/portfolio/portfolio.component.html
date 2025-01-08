@@ -1,0 +1,144 @@
+<section>
+  <div class="row">
+    <div class="container mx-auto py-5">
+      <div class="title py-4">
+        <h2 class="text-center mt-5">PORTFOLIO COMPONENT</h2>
+        <div
+          class="icon d-flex flex-row justify-content-center align-items-center my-3"
+        >
+          <div></div>
+          <i class="fa-solid fa-star mx-3"></i>
+          <div></div>
+        </div>
+      </div>
+      <div
+        class="items mx-auto row d-flex flex-row justify-content-center g-5 py-5"
+      >
+        <div class="myItems col-md-4 mb-5">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/poert1.png"
+              alt="image-1"
+              class="rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="myItems col-md-4">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/port2.png"
+              alt="image-2"
+              class="rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="myItems col-md-4">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/port3.png"
+              alt="image-3"
+              class="rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="myItems col-md-4">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/poert1.png"
+              alt="image-1"
+              class="rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="myItems col-md-4">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/port2.png"
+              alt="image-2"
+              class="rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="myItems col-md-4">
+          <div class="contant position-relative mx-auto text-center">
+            <img
+              src="/image/port3.png"
+              alt="image-3"
+              class="border rounded rounded-4"
+            />
+            <div
+              class="layer position-absolute end-0 top-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center rounded rounded-4"
+              (click)="imageSrc($event)"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <a><i class="fa-solid fa-plus fs-1 text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div
+  class="modal"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div
+      class="modal-body position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-primary bg-opacity-25"
+    >
+      <img [src]="currentImageSrc" alt="" class="imageLayer" />
+      <div class="closeIcon position-relative">
+        <i
+          class="fa-solid fa-xmark fa-2xl position-absolute end-0 text-white pe-4"
+        ></i>
+      </div>
+    </div>
+  </div>
+</div>
